@@ -1,0 +1,35 @@
+.margin-x {
+    margin: 0 15rem;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+    .margin-x {
+        margin: 0 5rem;
+    }
+    
+    .form-modal {
+        width: 75% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .margin-x {
+        margin: 0 1rem;
+    }
+    
+    .form-modal {
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .form-modal {
+        max-height: 95vh !important;
+    }
+
+    .padding-mobile {
+        padding: 1rem !important;
+    }
+}

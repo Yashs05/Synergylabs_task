@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-break: anywhere;
+}
+
+button {
+  border: none;
+}
+
+h4 {
+  font-size: 1.3rem !important;
+}
